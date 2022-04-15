@@ -3,14 +3,15 @@
 @import '../scss/base/_maps';
 
 
-
 body{
     padding: 0;
     margin: 0;
     @extend %fuente;
     /*background-color:map-get($general, bg-body);*/
-    background-image: url("../img-bootsrap/icon.jpg");
+    background-image: url(../img-bootsrap/fondo2.jpg) no-repeat center center fixed;
+    background-size: cover;
     }
+
     h1, h2, h3{
         font-size: 90px;
         @extend %fuente;
