@@ -8,7 +8,8 @@ body{
     padding: 0;
     margin: 0;
     @extend %fuente;
-    background-color:map-get($general, bg-body);
+    /*background-color:map-get($general, bg-body);*/
+    background-image: url("../img-bootsrap/icon.jpg");
     }
     h1, h2, h3{
         font-size: 90px;
