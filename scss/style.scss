@@ -8,10 +8,14 @@ body{
     margin: 0;
     @extend %fuente;
     /*background-color:map-get($general, bg-body);*/
-    background-image: url(../img-bootsrap/fondo2.jpg) no-repeat center center fixed;
+    background: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;
     background-size: cover;
     }
+    .card{
+        background: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;
+        background-size: cover;
 
+    }
     h1, h2, h3{
         font-size: 90px;
         @extend %fuente;
@@ -52,6 +56,18 @@ body{
             transition: 0.5s;
             color: white;
         }
+        .nav-toggle{
+            background: none;
+            border: none;
+            font-size: 30px;
+            padding-top: 10px;
+            padding-left: 10px; 
+            padding-right: 10px;
+
+        
+
+
+        }
     }
     #galeria{
         @extend %margins;
@@ -88,7 +104,10 @@ body{
 
 
     }
+@media (max-width: 768px){
+    
 
+}
 
 
 
