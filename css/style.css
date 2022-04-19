@@ -46,7 +46,7 @@ h1, h2, h3 {
 }
 
 .nav {
-  background-color: #c23333;
+  background-color: black;
   margin-bottom: 50px;
 }
 .nav .nav-link {
@@ -94,7 +94,7 @@ h1, h2, h3 {
 }
 
 footer {
-  background-color: #c23333;
+  background-color: black;
 }
 footer p {
   font-size: 20px;
