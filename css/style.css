@@ -3,7 +3,7 @@
   text-decoration: none;
 }
 
-.form h4, .parrafo-libro, h4, h1, h2, h3, body {
+.form h4, .parrafo-libro, h4, h1, h2, h3, body, .card {
   color: antiquewhite;
   font-family: "Smooch Sans", sans-serif;
   text-align: center;
@@ -19,17 +19,10 @@
   margin-right: 60px;
 }
 
-body {
+body, .card {
   padding: 0;
   margin: 0;
-  background-color: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;
-  /*background: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;*/
-  background-size: cover;
-}
-
-.card {
-  background-color: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;
-  /*background: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;*/
+  background: url(/img-bootsrap/fondo4.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
