@@ -57,12 +57,14 @@ body,.card{
             padding-top: 10px;
             padding-left: 10px; 
             padding-right: 10px;
+
+
         }
     }
     .bio{
-        text-align: center;
-        font-size: 20px;
         @extend %textsmargins;
+        @extend %fuente-bio;
+
     }
     h5{
         text-align: center;
@@ -93,6 +95,7 @@ body,.card{
         text-align: center;
         font-size: 20px;
         @extend %textsmargins;
+        font-style: 'Smooch Sans', sans-serif;
             
     }
     .form{
