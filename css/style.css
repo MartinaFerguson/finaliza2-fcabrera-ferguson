@@ -3,27 +3,33 @@
   text-decoration: none;
 }
 
-.form h4, h1, h2, h3, body {
+.form h4, .parrafo-libro, h4, h1, h2, h3, body {
   color: antiquewhite;
   font-family: "Smooch Sans", sans-serif;
   text-align: center;
 }
 
-.form, #galeria {
+.form, h4, #galeria {
   margin-top: 80px;
   margin-bottom: 100px;
+}
+
+.parrafo-libro, .bio {
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 body {
   padding: 0;
   margin: 0;
-  /*background-color:map-get($general, bg-body);*/
-  background: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;
+  background-color: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;
+  /*background: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;*/
   background-size: cover;
 }
 
 .card {
-  background: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;
+  background-color: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;
+  /*background: url(../img-bootsrap/fondo4.jpg) no-repeat center center fixed;*/
   background-size: cover;
 }
 
@@ -62,9 +68,8 @@ h1, h2, h3 {
 .nav .nav-link_active {
   padding: 6px 10px;
   border-radius: 4px;
-  background-color: black;
+  background-color: #0b1111;
   transition: 0.5s;
-  color: white;
 }
 .nav .nav-toggle {
   background: none;
@@ -73,6 +78,17 @@ h1, h2, h3 {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.bio {
+  text-align: center;
+  font-size: 20px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 #galeria img {
@@ -84,6 +100,16 @@ h1, h2, h3 {
 }
 #galeria .col-lg-4 {
   padding: 25px;
+}
+
+h4 {
+  padding-top: 30px;
+  font-size: 45px;
+}
+
+.parrafo-libro {
+  text-align: center;
+  font-size: 20px;
 }
 
 .form .mb-3 {
