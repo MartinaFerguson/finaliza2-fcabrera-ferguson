@@ -6,8 +6,7 @@ body,.card{
     padding: 0;
     margin: 0;
     @extend %fuente;
-    background-image: url(../img-bootsrap/fondo4.jpeg);
-    /*background: map-get($general, bg-body);*/
+    background: url(../img-bootsrap/fondo4.jpeg) no-repeat center center fixed;
     background-size: cover;
     }
     .card-body .card .logo, h1, h2{
