@@ -61,23 +61,10 @@ body,.card{
             transition: 0.5s;
 
         }
-        .nav-toggle{
-            color: antiquewhite;
-            background: none;
-            border: none;
-            font-size: 30px;
-            padding-top: 10px;
-            padding-left: 10px; 
-            padding-right: 10px;
-
-            display: none;
-            /*display: block;*/
-        }
     }
     .bio{
         @extend %textsmargins;
         @extend %fuente-bio;
-
     }
 
     .timelapses{
